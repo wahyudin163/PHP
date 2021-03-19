@@ -74,3 +74,19 @@ $x = 1;
 $x -= 5;
 echo $x;
 ?>
+
+
+<!-- perbandingan (biasanya dipakai pada saat pengkondisian) -->
+<!-- identitas -->
+<?php
+var_dump(1 == "1");
+?>
+<?php
+var_dump(1 === "1");
+?>
+
+<!-- logika -->
+<?php
+$x = 10;
+var_dump($x < 20);
+?>
